@@ -4,7 +4,7 @@ import speechRecognition as sr
 
 engin=pyttsx3.init('sapi5')
 voices=engin.getProperty('voices')
-#print(voices[1].id)
+#print(voices[1].id)//female voice
 engin.setProperty('voice',voices[1].id)
 
 
@@ -23,4 +23,3 @@ def wishMe():
 
 if __name__ == '__main__':
     wishMe();
-    #speak("monish is good boy")
